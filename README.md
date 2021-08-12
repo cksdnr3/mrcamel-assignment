@@ -23,6 +23,7 @@ output:
 
 ---
 ## 실행
+Node.js 다운로드: https://nodejs.org/ko/
 ```
 git clone https://github.com/cksdnr3/mrcamel-assignment.git  
 cd mrcamel-assignment
