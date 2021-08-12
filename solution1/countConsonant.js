@@ -52,4 +52,6 @@ function extractConsonant(char) {
     return result;
 }
 
-console.log(countConsonant("한글 문자를 입력해주세요."))
+
+// Test
+console.log(countConsonant("사과1호랑이,고니 수박BT닭"))

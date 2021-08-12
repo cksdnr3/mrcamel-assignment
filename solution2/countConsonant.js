@@ -1,11 +1,11 @@
 const FIRST_KOR_CODE = 44032;
 const LAST_KOR_CODE = 55204;
-const INITIAL_SOUND_CODE = parseInt('0x1100', 16) + i
+const INITIAL_SOUND_CODE = parseInt('0x1100', 16)
 
 function countConsonant(str) {
     let result = {}
     for (let i = 0; i < 19; i++) {
-        result[String.fromCharCode(INITIAL_SOUND_CODE)] = 0
+        result[String.fromCharCode(INITIAL_SOUND_CODE + i)] = 0
     }
 
     const filtered = filterKorean(str);
@@ -39,4 +39,4 @@ function extractConsonant(char) {
 }
 
 // Test
-console.log(countConsonant("한글 문자를 입력해주세요."))
+console.log(countConsonant("사과1호랑이,고니 수박BT닭"))
